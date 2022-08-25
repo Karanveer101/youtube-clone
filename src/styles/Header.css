@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.voiceBtn {
+    margin-left: 10px;
+}
+
+.firstNav {
+    display: flex;
+    gap: 10px;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.lastNav {
+    display: flex;
+    gap: 10px;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.header button {
+    border: none;
+    background: 0;
+}
+
+.header .searchBtn {
+    background-color: var(--lightGrey);
+    border: 1px solid  var(--grey);
+    padding: 3.5px 20px 3.5px 20px;
+    
+}
+
+.secondNav {
+    display: flex;
+    align-items: center;
+}
+.secondNav2 {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#searchBar {
+    border-color: 1px solid var(--grey);  
+    border: 1px solid  var(--grey);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    box-shadow: inset 2px 2px var(--lightGrey);
+    width: 450px;
+}
+
+#accountPhoto {
+    height: 35px;
+    border-radius: 50%;
+}
+
+.header .voiceBtn {
+    background-color: var(--lightGrey);
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 20px
+}
+
+#searchBar2 {
+    border-color: 1px solid var(--grey);  
+    border: 1px solid  var(--grey);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    box-shadow: inset 2px 2px var(--lightGrey);
+    flex-grow: 1;
+}

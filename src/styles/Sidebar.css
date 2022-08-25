@@ -1,0 +1,33 @@
+.sidebar {
+    box-sizing: border-box;
+    overflow: scroll;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 60px;
+}
+
+.sidebar button {
+    background: 0;
+    border: none;
+    font-size: 0.67rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+}
+
+.sidebar button:hover {
+    background-color: var(--lightGrey);
+}
+
+.sidebar button span {
+    padding-top: 8px;
+}
+
+.flex {
+    display: flex;
+}
+

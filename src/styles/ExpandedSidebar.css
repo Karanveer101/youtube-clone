@@ -1,0 +1,48 @@
+.expandedSidebar {
+box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  overflow: scroll;
+  background-color: white;
+  position: fixed;
+  height: 100vh;
+  padding-top: 60px;
+  z-index: 2;
+}
+
+.expandedSidebar button {
+  background: 0;
+  border: none;
+  padding: 7px 0px 7px 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  gap: 20px;
+  font-size: 0.9rem;
+}
+
+.expandedSidebar button:hover {
+  background-color: var(--lightGrey);
+}
+
+h4 {
+  padding-left: 20px;
+  color: grey;
+}
+
+footer {
+  color: grey;
+  font-size: 0.8rem;
+  padding-left: 20px;
+}
+
+hr {
+  width: 93%;
+  margin-inline-start: 0;
+  border-top: 0.5px solid lightgrey;
+}
+
+.expandedSidebar .home {
+  margin-top: 10px;
+}

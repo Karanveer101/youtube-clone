@@ -5,7 +5,7 @@ function Videos(props) {
   console.log(videoMetaInfo);
 
   const displayVideos = videoMetaInfo.map((item) => (
-    <div>
+    <div className='video'>
       <div
         style={{
           backgroundImage: `url(${item.snippet.thumbnails.medium.url})`,

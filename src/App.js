@@ -6,9 +6,11 @@ import Header2 from './components/Header2';
 import { AiOutlineSearch } from 'react-icons/ai';
 import axios from 'axios';
 
-function App() {
+function App(props) {
+  const { setVideoId } = props;
   const [isActive, setIsActive] = useState(false);
   const [title, setTitle] = useState('');
+
   console.log(title);
 
   useEffect(() => {
@@ -104,9 +106,12 @@ function App() {
         />
       )}
       {isSidebarExpanded === true ? (
-        <ExpandedSidebar videoMetaInfo={videoMetaInfo} />
+        <ExpandedSidebar
+          videoMetaInfo={videoMetaInfo}
+          setVideoId={setVideoId}
+        />
       ) : (
-        <Sidebar videoMetaInfo={videoMetaInfo} />
+        <Sidebar videoMetaInfo={videoMetaInfo} setVideoId={setVideoId} />
       )}
     </div>
   );
